@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">practica3ejercicio2</string>
+    <string name="pista1">numerito </string>
+    <string name="pista2">numerito 2</string>
+    <string name="respuesta">respuesta</string>
+</resources>

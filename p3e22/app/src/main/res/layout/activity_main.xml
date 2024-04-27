@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/respuesta"
+        android:hint="@string/respuesta"
+        android:textAlignment="textEnd"
+        android:textSize="34sp"/>
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pista1" />
+
+    <EditText
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero2"
+        android:hint="@string/pista2"/>
+
+    <Button
+        android:backgroundTint="@color/RosaPastel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suma"
+        android:layout_margin="5dp"
+        android:text="+"/>
+    <Button
+        android:backgroundTint="@color/RosaPastel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resta"
+        android:layout_margin="5dp"
+        android:text="-"/>
+    <Button
+        android:backgroundTint="@color/RosaPastel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiplicacion"
+        android:layout_margin="5dp"
+        android:text="*"/>
+    <Button
+        android:backgroundTint="@color/RosaPastel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/division"
+        android:layout_margin="5dp"
+        android:text="/"/>
+
+</LinearLayout>
